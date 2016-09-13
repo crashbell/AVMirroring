@@ -7,9 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreMediaIO/CMIOHardware.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <AVCaptureVideoDataOutputSampleBufferDelegate> {
+    
+}
 
-
+@property (weak) IBOutlet NSView *cameraViewiPad;
+@property (weak) IBOutlet NSView *cameraViewiPhone;
+@property (nonatomic, strong) AVCaptureSession* captureSessioniPad;
+@property (nonatomic, strong) AVCaptureSession* captureSessioniPhone;
 @end
 

@@ -14,6 +14,8 @@
 		B65A8B2F1D824C7F00DAD6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A8B2D1D824C7F00DAD6DF /* Main.storyboard */; };
 		B65A8B3A1D824C7F00DAD6DF /* CoreMediaIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A8B391D824C7F00DAD6DF /* CoreMediaIOTests.m */; };
 		B65A8B451D824C7F00DAD6DF /* CoreMediaIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A8B441D824C7F00DAD6DF /* CoreMediaIOUITests.m */; };
+		B65A8B531D824D7400DAD6DF /* CoreMediaIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A8B521D824D7400DAD6DF /* CoreMediaIO.framework */; };
+		B65A8B551D824EBC00DAD6DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A8B541D824EBC00DAD6DF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B65A8B401D824C7F00DAD6DF /* CoreMediaIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMediaIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65A8B441D824C7F00DAD6DF /* CoreMediaIOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMediaIOUITests.m; sourceTree = "<group>"; };
 		B65A8B461D824C7F00DAD6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A8B521D824D7400DAD6DF /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = System/Library/Frameworks/CoreMediaIO.framework; sourceTree = SDKROOT; };
+		B65A8B541D824EBC00DAD6DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65A8B551D824EBC00DAD6DF /* AVFoundation.framework in Frameworks */,
+				B65A8B531D824D7400DAD6DF /* CoreMediaIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,8 @@
 		B65A8B161D824C7F00DAD6DF = {
 			isa = PBXGroup;
 			children = (
+				B65A8B541D824EBC00DAD6DF /* AVFoundation.framework */,
+				B65A8B521D824D7400DAD6DF /* CoreMediaIO.framework */,
 				B65A8B211D824C7F00DAD6DF /* CoreMediaIO */,
 				B65A8B381D824C7F00DAD6DF /* CoreMediaIOTests */,
 				B65A8B431D824C7F00DAD6DF /* CoreMediaIOUITests */,
